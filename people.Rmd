@@ -7,7 +7,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## LVG Director {style="text-align: center"}
+## LVG Director {style="text-align: left"}
 
 ### Dr. Karen Nylund-Gibson
 
