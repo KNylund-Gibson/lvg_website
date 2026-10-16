@@ -44,6 +44,16 @@ html{font-size:15px}body{font-size:15px;line-height:1.48;letter-spacing:-.012em}
 .director-image{min-height:0;height:270px}
 .director-image img{object-fit:cover;object-position:center 24%}
 @media(max-width:700px){.director-card{grid-template-columns:1fr}.director-image{height:240px}.director-image img{object-fit:contain;background:#e2e7eb}}
+
+/* People page: compact title-to-profile spacing and fitted director portrait. */
+.simple-page-title{padding-top:32px;padding-bottom:10px}
+.director.section{padding-top:20px;padding-bottom:52px}
+.director .section-top{margin-bottom:18px}
+.director-card{grid-template-columns:220px minmax(0,1fr);align-items:start;border:0;border-radius:0;box-shadow:none;overflow:visible;gap:28px}
+.director-image{width:220px;height:270px;min-height:0;border:1px solid var(--border);border-radius:9px;overflow:hidden;align-self:start}
+.director-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 24%}
+.director-info{padding:0;min-width:0}
+@media(max-width:700px){.director-card{grid-template-columns:1fr;gap:20px}.director-image{width:220px;height:270px}.director-image img{object-fit:cover}.director.section{padding-top:16px}.director-info{padding:0}}
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a><div class="university"><div class="wrap">UC Santa Barbara · Gevirtz Graduate School of Education</div></div>
 <header class="site-header"><div class="wrap header-content"><a class="brand" href="index.html"><span class="brandmark">LVG</span><span class="brand-sub">LATENT VARIABLE GROUP</span></a><button aria-controls="main-nav" aria-expanded="false" class="mobile-menu" type="button">Menu <span>☰</span></button><nav aria-label="Main navigation" id="main-nav"><a href="index.html">Home</a><a aria-current="page" href="people.html">People</a><a href="research.html">Research</a><a href="news.html">News</a><a href="papers-resources.html">Papers &amp; Resources</a></nav></div></header>
